@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto Mono", serif;
+}
+:root {
+    --color-red: #FF5E5B;
+    --color-gray: #D8D8D8;
+    --color-yellow-light: #FFFFEA;
+    --color-teal: #00CECB;
+    --color-yellow-bright: #FFED66;
+
+    --font-size-small: 0.8rem;
+    --font-size-medium: 1rem;
+    --font-size-large: 1.5rem;
+  
+    --spacing-small: 0.2rem;
+    --spacing-medium: 1rem;
+    --spacing-large: 2rem;
+  
+    --font-family: "Roboto Mono",'Arial',' sans-serif';
+}
+
+body{
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: auto;
+    background-color: black;
+    color: white;
+}
+
+body::-webkit-scrollbar {
+    width: 1px;
+}
+body::-webkit-scrollbar-thumb {
+    background-color: var(--color-red);
+    border-radius: 10px; 
+}
